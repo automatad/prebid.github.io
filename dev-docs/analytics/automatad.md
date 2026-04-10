@@ -10,23 +10,23 @@ prebid_member: false
 enable_download: true
 ---
 
-### Instructions for usage
+## Instructions for usage
 
 The [Automatad](https://automatad.com/) analytics adapter requires on-boarding, configuration
 parameters & addition of an external script that will be supplied to you by your Automatad account team. Please reach out to your account team or
 <cs@automatad.com> for more information.
 
-### Adapter Configuration Options
+## Adapter Configuration Options
 
 {: .table .table-bordered .table-striped }
 
-| Name        | Scope    | Description                                                            | Example  | Type    |
-| ----------- | -------- | ---------------------------------------------------------------------- | -------- | ------- |
-| siteID      | required | Your site ID                                                           | `N8vZLx` | string  |
-| publisherID | required | Your publisher ID                                                      | `PXfvBq` | string  |
-| logDebug    | optional | Flag to collect debug data pertaining to auctions. Defaults to false   | `false`  | boolean |
+| Name        | Scope    | Description                                                          | Example  | Type    |
+| ----------- | -------- | -------------------------------------------------------------------- | -------- | ------- |
+| siteID      | required | Your site ID                                                         | `N8vZLx` | string  |
+| publisherID | required | Your publisher ID                                                    | `PXfvBq` | string  |
+| logDebug    | optional | Flag to collect debug data pertaining to auctions. Defaults to false | `false`  | boolean |
 
-### Example Configuration
+## Example Configuration
 
 ```js
 import CONSTANTS '../src/constants.json';
