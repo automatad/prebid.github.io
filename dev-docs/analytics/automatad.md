@@ -10,7 +10,7 @@ prebid_member: false
 enable_download: true
 ---
 
-## Instructions for usage
+### Instructions for usage
 
 The [Automatad](https://automatad.com/) analytics adapter requires on-boarding, configuration
 parameters & addition of an external script that will be supplied to you by your Automatad account team. Please reach out to your account team or
